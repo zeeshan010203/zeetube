@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/1142d85068.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css/header.css" />
+    <link rel="stylesheet" href="style.css/index.css" />
+    <link rel="stylesheet" href="style.css/video.css" />
+    <title>ZeeTube</title>
+  </head>
+  <body>
+  <div id="notifications">
+    <h3>Notifications</h3>
+    <ul>
+      <li>
+        <div class="notification-list">
+          <div>
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div>
+            <p class="title">New suscriber: iLovePakistan101</p>
+            <p class="date">Yesterday</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="notification-list">
+          <div>
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div>
+            <p class="title">New suscriber: tagurolover302</p>
+            <p class="date">Yesterday</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="notification-list">
+          <div>
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div>
+            <p class="title">New suscriber: PapaMoMamba</p>
+            <p class="date">7 days ago</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="notification-list">
+          <div>
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div>
+            <p class="title">theninja12japan uploaded a video: I'm a ninja?</p>
+            <p class="date">10 days ago</p>
+          </div>
+        </div>
+      </li>
+      <li id="close-notification">Close Notification</li>
+    </ul>
+  </div>
+  <div class="real-menu" id="real-menu">
+    <div class="profile-header">
+      <div class="profile">
+        <a href="grid.html" class="profile-icon-button"> 
+          <img class="profile-icon-button" src="images/profile1-removebg-preview.png" alt="button-image">
+        </a>
+      </div>
+      <div class="info">
+        <h3>Zeeshan</h3>
+        <p>@batityozshan</p>
+      </div>
+    </div>
+    <ul>
+      <li><i class="fa-solid fa-user icon"></i>Google Account</li>
+      <li><i class="fa-solid fa-right-from-bracket icon"></i>Sign out</li>
+      <li><i class="fa-solid fa-microphone-lines icon"></i>Youtube Studio</li>
+      <li><i class="fa-solid fa-dollar-sign icon"></i>Purchase and Membership</li>
+      <li><i class="fa-solid fa-database icon"></i>Your data in Youtube</li>
+      <li><i class="fa-solid fa-keyboard icon"></i>Keyboard Shortcuts</li>
+      <li><i class="fa-solid fa-gear icon"></i> Settings</li>
+      <li><i class="fa-solid fa-handshake-angle icon"></i>Help</li>
+      <li><i class="fa-solid fa-circle-exclamation icon"></i>Send Feedback</li>
+      <li id="close-menu"><i class="fa-solid fa-rectangle-xmark icon"></i>Close Menu</li>
+    </ul>
+  </div>
+  <main id="main">
+
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger" id="hamburger" src="images/hambuger.png">
+        <a href="/">
+          <img class="zeetube" src="images/logof.png">
+        </a>
+      </div>
+  
+  
+      <div class="middle-section">
+        <input class="search-bar" type="textbox"  placeholder="Search" id="search-box" />
+          <img class="search-icon" id="search-button" src="images/search.png"alt="Button Image">
+          <button class="tooltip" >Search</button>
+          <a href="https://www.youtube.com" class="search-voice-button"> 
+            <img class="search-voice-button" src="images/voice.png" alt="button-image">
+            <button class="tool-tip">Search with your voice</button>
+        </a>  
+      </div>
+      <div class="right-section">
+        <a href="Upload.html" class="upload-icon-button"> 
+          <img class="upload-icon-button" src="images/upload.png" alt="button-image">
+      </a>
+      <a href="https://www.youtube.com" class="youtube-icon-button"> 
+        <img class="youtube-icon-button" src="images/yutbe_icon-removebg-preview.png" alt="button-image">
+    </a>
+    <div  class="bell-icon-button" id="notification-button"> 
+      <img class="bell-icon-button" src="images/bell.png" alt="button-image">
+    </div>
+    <div class="profile-icon-button" id="profile-icon-button"> 
+      <img class="profile-icon-button" src="images/profile1-removebg-preview.png" alt="button-image">
+    </div>
+      </div>
+  <div class="sidebar" id="sidebar">
+    <div class="side-bar-link">
+      <a href="https://www.youtube.com" class="menu"> 
+        <img class="menu" src="images/home.png" alt="button-image">
+    </a>
+    <div class="side-div"> Home</div>
+    </div>
+    <div class="side-bar-link"><a href="https://www.youtube.com" class="menu"> 
+      <img class="menu" src="images/explore.png" alt="button-image">
+  </a>
+  <div class="side-div">Explore</div></div>
+    <div class="side-bar-link"><a href="https://www.youtube.com" class="menu"> 
+      <img class="menu" src="images/subcription.png" alt="button-image">
+  </a>
+  <div class="side-div">Subcriptions</div></div>
+    <div class="side-bar-link"><a href="https://www.youtube.com/feed/subscriptions" class="menu"> 
+      <img class="menu" src="images/my m.png" alt="button-image">
+  </a><div class="side-div">Originals</div></div>
+    <div class="side-bar-link"><a href="https://www.youtube.com" class="menu"> 
+      <img class="menu" src="images/my file.png" alt="button-image">
+  </a><div class="side-div" >My Music</div></div>
+    <div class="side-bar-link"><a href="https://www.youtube.com" class="menu"> 
+      <img class="menu" src="images/library.png" alt="button-image">
+  </a></a><div class="side-div">My Library</div></div>
+  </div>
+    </div>
+      <div class="video-grid">
+      <a href="https://www.youtube.com/watch?v=rfCvBFIv454" target="_blank" class="video-preview">
+        <div class="ghost-row">
+          <img class="ghost" src="images/hq720.webp" />
+          <div class="video-time">5:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Ghost - Justin Bieber (Lyrics)</p>
+            <p class="video-author">Dracula Lyrics</p>
+            <p class="video-stats">120views 1 week ago</p>
+          </div>
+        </div>
+      </a>
+  
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+      
+  
+      <a href="https://www.youtube.com/watch?v=-h_yBTriuaY" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/365.webp" />
+          <div class="video-time">4:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              elijah woods - 24/7, 365 (official lyric video)
+            </p>
+            <p class="video-author">elijah woods lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+  
+      <a href="https://www.youtube.com/watch?v=IgDPhIHHRFM" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/yellow.webp" />
+          <div class="video-time">4:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Cold play-Yellow(lyrics)</p>
+            <p class="video-author">Mosaic lyrics</p>
+            <p class="video-stats">1270 views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+  
+      <a href="https://www.youtube.com/watch?v=_-YjO6KfEMk" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/those eyes.webp" />
+          <div class="video-time">4:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+  
+          </div>
+          <div class="video-info">
+            <p class="video-title">New West - Those Eyes (Lyrics)</p>
+            <p class="video-author">The Vibe Guide</p>
+            <p class="video-stats">12370 views 2 week ago</p>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=meGizSN2HrE" target="_blank" class="video-preview">
+        <div class="ghost-row">
+          <img class="ghost" src="images/that should.webp" />
+          <div class="video-time">4:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/qwerty.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Justin Bieber-That Should Be me(Speed me)</p>
+            <p class="video-author">Cloudy Star</p>
+            <p class="video-stats">10M views 1 Month ago</p>
+          </div>
+        </div>
+      </a>
+      <div>
+        
+        <a href="https://www.youtube.com/watch?v=Q0bnAmfGQC8" target="_blank" class="video-preview">
+  
+        <div class="ghost-row">
+          <img class="ghost" src="images/7years.webp" />
+          <div class="video-time">4:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/dog.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lukas Graham - 7 Years | Ed Sheeran, Shawn Mendes (Mix Lyrics)
+            </p>
+            <p class="video-author">courages lyrics</p>
+            <p class="video-stats">1270views 4 week ago</p>
+          </div>
+        </div>
+      </a>
+  </main>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
