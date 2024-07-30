@@ -62,6 +62,7 @@ closeButton.addEventListener("click", () => {
 });
 
 hamburger.addEventListener("click", () => {
+
   if (sidebar.style.display === "block") {
     sidebar.style.display = "none";
   } else {
